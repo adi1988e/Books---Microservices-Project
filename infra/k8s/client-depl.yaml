@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: client
-          image: adimars/books-client
+          image: adimars/client
 ---
 apiVersion: v1
 kind: Service
