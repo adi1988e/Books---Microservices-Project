@@ -21,11 +21,11 @@ function Header({ currentUser }) {
     });
   return (
     <nav className="navbar navbar-light bg-light">
-      <Link className="navbar-brand" href="/">
+      <Link className="navbar-brand ml-5" href="/">
         Books
       </Link>
 
-      <div className="d-flex justify-content-end">
+      <div className="d-flex justify-content-end mr-5">
         <ul className="nav d-flex align-items-center">{links}</ul>
       </div>
     </nav>
