@@ -17,7 +17,7 @@ build:
         manual:
           - src: "src/**/*.ts"
             dest: .
-    - image: adimars/books-client
+    - image: adimars/client
       context: client
       docker:
         dockerfile: Dockerfile
